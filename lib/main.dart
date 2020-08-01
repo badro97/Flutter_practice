@@ -58,9 +58,10 @@ class _FinalPageState extends State<FinalPage> {
         backgroundColor: Colors.orange,
         centerTitle: true,
       ),
-
+      
       body: _pages[_index],
-
+     
+      
       bottomNavigationBar: BottomNavigationBar(
         onTap: (index) {
           setState(() {
