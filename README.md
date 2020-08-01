@@ -1,17 +1,23 @@
 # todo_app
 
-A new Flutter application.
+## 오준석의 플러터 생존코딩
 
-## Getting Started
+예제 통합 어플리케이션
 
-This project is a starting point for a Flutter application.
+- 할 일 관리
 
-A few resources to get you started if this is your first Flutter project:
+- BMI 계산기
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- 스탑워치
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Flutter_practice" 
+## 문제점 / TODO
+
+- 스탑워치 
+    - Positioned 부분 bottom overflowed 발생 해결
+    - Timer.periodic(Duration(milliseconds: 10))싱크가 맞지 않는 문제
+
+- 할 일 관리
+    - 머신러닝, 자연어 처리 공부하여 적용
+
+- BMI 계산기
+    - 다른 용도로 활용
