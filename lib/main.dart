@@ -502,7 +502,9 @@ class _StopWatchPageState extends State<StopWatchPage> {
                   backgroundColor: Colors.lightGreen,
                   onPressed: () {
                     setState(() {
-                      _recordLapTime('$sec.$hundredth');
+                      if (_time != 0){
+                        _recordLapTime('$sec.$hundredth');
+                      }
                     });
                   },
                   child: Icon(Icons.check),
